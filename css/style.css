@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+div {
+  overflow: hidden;
+}
+body {
+  background-color: #e8f9fd;
+}
+nav {
+  padding: 15px 0px 15px 5px;
+  text-align: center;
+}
+p {
+  color: #0aa1dd;
+  padding-bottom: 10px;
+  line-height: 1.5em;
+}
+hr {
+  margin-top: 30px;
+  margin-left: 48%;
+  border-style: dotted none none;
+  border-color: #0aa1dd;
+  border-width: 5px;
+  width: 5%;
+}
+span {
+  color: black;
+}
+h4 {
+  color: #2155cd;
+  text-align: left;
+}
+#align,
+#h4-align {
+  text-align: right;
+}
+
+nav img {
+  height: 40px;
+  width: 40px;
+  margin-right: 25px;
+}
+a {
+  text-decoration: none;
+}
+.links {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #2155cd;
+}
+li {
+  color: green;
+}
+.links:hover,
+.links:active {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #2155cd;
+  color: white;
+}
+
+.spacer {
+  height: 150px;
+}
+
+.hero-section {
+  height: 25%;
+  padding: 5%;
+  background: url("/images/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+h1 {
+  color: #2155cd;
+  padding-bottom: 20px;
+}
+#intro {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 64px;
+}
+#h1-work,
+h2 {
+  font-family: "Cabin Sketch", cursive;
+}
+
+.section {
+  margin: 50px 0px 50px 0px;
+  height: 500px;
+}
+.section img,
+.work img {
+  /* margin-bottom: 30px; */
+  height: auto;
+  width: 180px;
+}
+
+.work {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url("/images/section-bgr.jpg");
+  background-size: auto;
+  background-position: top;
+  background-attachment: fixed;
+}
+.content {
+  text-align: left;
+}
+.resume {
+  margin: 100px 20px 20px 20px;
+}
+
+.cover-content {
+  text-align: justify;
+  padding-right: 20px;
+  padding-left: 20x;
+}
