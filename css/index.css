@@ -69,7 +69,7 @@ li {
 .hero-section {
   height: 25%;
   padding: 5%;
-  background: url("/images/hero-image.jpg");
+  background: url('./images/hero-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
